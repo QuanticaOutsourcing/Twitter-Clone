@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+.logo{
+    font-size: 48px;
+}
+.login-header{
+    display: flex;
+    justify-content: center;
+}
+.login-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-body>.container{
+    width: 65%;
+}
+
+.container h2{
+    font-size: 2.1rem;
+}
+.login-button-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 32px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 1rem;
+
+}
+.login-button-social>.icon{
+    width: 50px;
+}
+.social-icon{
+    width: 42px;
+    height: 42px;
+}
+.social-buttons{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.apple{
+    width: 36px;
+    height: 36px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.divider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider-line{
+    min-width: 35%;
+    height: 1px;
+    background-color: #555;
+}
+.login-form{
+    margin-top: 1rem;
+
+}
+.form-input-box{
+    padding: 16px 12px;
+    border-radius: 6px;
+    border: 1px solid #666;
+    position: relative;
+}
+.form-input-box > p{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color: #666;
+}
+.form-input{
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+}
+.actions{
+    margin-top: 2rem;
+}
+.login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 32px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 1rem;
+    padding: 12px 18px;
+    font-weight: bold;
+}
+.outlined{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.actions>span{
+    color: #666;
+    position: relative;
+    top: 2rem;
+}
+.actions>span>a{
+    text-decoration: none;
+    color: rgb(60, 126, 217);
+}
